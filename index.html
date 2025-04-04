@@ -5,7 +5,7 @@
     <title>Title</title>
     <script>
         function sendMessageToFlexiti(message) {
-            window.parent.postMessage(message)
+            window.parent.postMessage(message, '*')
         }
         function sendSuccessMessageToFlexiti() {
             successMessage = {
